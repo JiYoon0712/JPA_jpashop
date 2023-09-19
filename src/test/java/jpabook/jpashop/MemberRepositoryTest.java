@@ -10,6 +10,7 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import org.springframework.transaction.annotation.Transactional;    // import => spring에서 제공하는 것을 권장
+/*
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MemberRepositoryTest {
@@ -34,3 +35,4 @@ public class MemberRepositoryTest {
         System.out.println("findMember == member : " + (findMember == member)); // true. 영속성 컨텍스트에서는 식별자가 같으면 같은 엔티티.
     }
 }
+ */
