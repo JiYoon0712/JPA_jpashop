@@ -110,6 +110,4 @@ public class MemberApiController {
         private String name;
     }
 
-
-
 }
